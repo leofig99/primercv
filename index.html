@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+
+
+
+  .contenedor {
+    max-width: 700px;   
+    background: white;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px white;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+    .nombrecompleto {
+      font-size: 40px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .nombre {
+      font-weight: 500;
+    }
+    .contacto {
+      margin-bottom: 20px;
+    }
+
+    .email ,
+    .telefono {
+      color: #999;
+      font-weight: 300;
+    } 
+
+    .separador {
+      height: 10px;
+      display: inline-block;
+      border-left: 2px solid grey;
+      margin: 0px 10px;
+    }
+
+    .posicion {
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: underline;
+    }
+  
+
+
+  .detalles {
+    line-height: 20px;
+  }
+    .seccion {
+      margin-bottom: 40px;  
+    }
+
+
+
+    .secciontitulo {
+      letter-spacing: 2px;
+      color: blue;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .seccionitem {
+      margin-bottom: 40px;
+    }
+
+
+    .izquierda ,
+    .derecha {
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .izquierda {
+      width: 60%;    
+    }
+
+    .derecha {
+      text-align: right;
+      width: 39%;    
+    }
+
+    .name {
+      font-weight: bold;
+    }
+      img{
+        border-radius: 100px;
+      }
+    </style>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<div class="contenedor">
+  <div class="header">
+    
+    <div class="nombrecompleto">
+    <img src="./imagenes/foto.jpg" width="100px" ></img>
+        <span class="nombre">Leonardo Figueroa</span> 
+    </div>
+    <div class="contacto">
+      <span class="email">Correo: </span>
+      <span class="email-val">leofig99@gmail.com</span>
+      <span class="separador"></span>
+      <span class="telefono">Telefono: </span>
+      <span class="telefono-val">123456788</span>
+    </div>
+    
+  </div>
+   <div class="detalles">
+    <div class="seccion">
+      <div class="secciontitulo">Experiencia</div>
+      <div class="seccion__list">
+        <div class="seccionitem">
+          <div class="izquierda">
+            <div class="name">Coppel</div>
+            <div class="addr">Culiacán, Sinaloa</div>
+            <div class="duration">Enero 2018 - Abril 2019</div>
+          </div>
+          <div class="derecha">
+            <div class="name">Programador</div>
+          </div>
+        </div>
+                <div class="seccionitem">
+          <div class="izquierda">
+            <div class="name">NTL Developing</div>
+            <div class="addr">Culiacán, Sinaloa</div>
+            <div class="duration">Abril 2019 - Octubre 2021</div>
+          </div>
+          <div class="derecha">
+            <div class="name">Programador</div>
+          </div>
+        </div>
+
+        <div class="seccionitem">
+            <div class="izquierda">
+              <div class="name">Coppel</div>
+              <div class="addr">Culiacán, Sinaloa</div>
+              <div class="duration">Octubre 2022 - Actualmente</div>
+            </div>
+            <div class="derecha">
+              <div class="name">Programador</div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="seccion">
+      <div class="secciontitulo">Educación</div>
+      <div class="seccion__list">
+        <div class="seccionitem">
+          <div class="izquierda">
+            <div class="name">Instituto Tecnologico de Culiacan</div>
+            <div class="addr">Culiacán, Sinaloa</div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+     <div class="seccion">
+       <div class="secciontitulo">Habilidades</div>
+       <div class="skills">
+         <div class="skills__item">
+           <div class="izquierda"><div class="name">
+             HTML
+             </div></div>
+           <div class="derecha">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" checked/>
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+       <div class="skills__item">
+           <div class="izquierda"><div class="name">
+             CSS</div></div>
+           <div class="derecha">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         <div class="skills__item">
+            <div class="izquierda"><div class="name">
+              C#</div></div>
+            <div class="derecha">
+                           <input  id="ck1" type="checkbox" checked/>
+ 
+              <label for="ck1"></label>
+                           <input id="ck2" type="checkbox" checked/>
+ 
+               <label for="ck2"></label>
+                          <input id="ck3" type="checkbox" checked/>
+ 
+               <label for="ck3"></label>
+                            <input id="ck4" type="checkbox"  checked/>
+             <label for="ck4"></label>
+                           <input id="ck5" type="checkbox" />
+               <label for="ck5"></label>
+ 
+            </div>
+          </div>
+       </div>
+     <div class="seccion">
+     <div class="secciontitulo">
+       Hobbies
+       </div>
+       <div class="seccion__list">
+         <div class="seccionitem">
+                  Gym, Videojuegos, Series.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
+</div>
+</body>
+</html>
